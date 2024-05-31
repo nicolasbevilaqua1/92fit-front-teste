@@ -24,7 +24,7 @@ export default function LoginView(){
     function handleSubmit(event) {
         event.preventDefault();
 
-        axios.post(`${API_URL}/auth/login`, {
+        axios.post(`${API_URL}auth/login`, {
             email,
             password,
         }).then(function(response) {
