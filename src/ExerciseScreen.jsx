@@ -455,7 +455,8 @@ const Body = styled.main`
 `
 
 const Pab = styled.p`
-font-size: 1.2rem;
+font-size: 3rem;
+font-weight: 500;
 `
 
 const ExerciseTitle = styled.h1`
