@@ -47,7 +47,7 @@ export default function HomeView() {
 
             <MainSection>
                 <BannerSection>
-                    <h2>{token != '' && name && `Olá ${name.split(' ')[0].slice(0, 12)}! Essa é a `}Sua academia de Inteligência Artificial!</h2>
+                    <h2>{token != '' && name && `Olá ${name.split(' ')[0].slice(0, 12)}! Essa é a `}Sua academia de Inteligência Artificial!!</h2>
                     <img src={HeroBanner} alt="" />
                 </BannerSection>
             </MainSection>
